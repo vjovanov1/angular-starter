@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/images/favicon.ico" sizes="16x16 32x32 48x48 64x64"
+        type="image/vnd.microsoft.icon">
+
+  <title>WP Angular Starter</title>
+
+  <!-- Concatenated CSS -->
+  <link href="/dest/lib.css?rev=ce521111498417454cb372b05cbd5f4d" rel="stylesheet">
+  <link href="/dest/app.css?rev=24e05f0dc3c8597d94ec2fe76557fc00" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-app="wp-angular-starter" ng-cloak class="ng-cloak">
+
+<div ui-view="navbar"></div>
+<div ui-view="main" class="main-page container"></div>
+
+
+<!-- Concatenated libraries -->
+<script src="/dest/lib.js?rev=095a32d60f0af49e467dfca6cf235341"></script>
+<!-- Concatenated application -->
+<script src="/dest/src.js?rev=221b14ec1acab87b4de3e2c3ba65d51c"></script>
+<!-- All html templates -->
+<script src="/dest/templates.js?rev=3e0a31ccb19754b0dcf68569a2a67e4a"></script>
+</body>
+</html>
